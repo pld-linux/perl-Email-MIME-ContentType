@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Email
 %define	pnam	MIME-ContentType
-Summary:	Email::MIME::ContentType - Parse a MIME Content-Type Header
+Summary:	Email::MIME::ContentType - parse a MIME Content-Type header
 Summary(pl):	Email::MIME::ContentType - przetwarzanie nag³ówka MIME Content-Type
 Name:		perl-Email-MIME-ContentType
 Version:	1.0
