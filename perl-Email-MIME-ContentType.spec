@@ -6,7 +6,7 @@
 %define	pdir	Email
 %define	pnam	MIME-ContentType
 Summary:	Email::MIME::ContentType - Parse a MIME Content-Type Header
-#Summary(pl):	
+Summary(pl):	Email::MIME::ContentType - przetwarzanie nag³ówka MIME Content-Type
 Name:		perl-Email-MIME-ContentType
 Version:	1.0
 Release:	1
@@ -26,8 +26,10 @@ according to section 5.1 of RFC 2045. It returns a hash as above,
 with entries for the discrete type, the composite type, and a hash
 of attributes.
 
-# %description -l pl
-# TODO
+%description -l pl
+Ten modu³ odpowiada za przetwarzanie nag³ówków listów dotycz±cych
+rodzaju zawarto¶ci zgodnie z rozdzia³em 5.1 RFC 2045. Zwraca hasza
+z wpisami dla typu dyskretnego, typu z³o¿onego i hasza atrybutów.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
