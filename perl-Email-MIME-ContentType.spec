@@ -6,7 +6,7 @@
 %define	pdir	Email
 %define	pnam	MIME-ContentType
 Summary:	Email::MIME::ContentType - parse a MIME Content-Type header
-Summary(pl.UTF-8):   Email::MIME::ContentType - przetwarzanie nagłówka MIME Content-Type
+Summary(pl.UTF-8):	Email::MIME::ContentType - przetwarzanie nagłówka MIME Content-Type
 Name:		perl-Email-MIME-ContentType
 Version:	1.01
 Release:	1
