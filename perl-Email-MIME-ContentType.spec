@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	Email
 %define	pnam	MIME-ContentType
 Summary:	Email::MIME::ContentType - parse a MIME Content-Type header
