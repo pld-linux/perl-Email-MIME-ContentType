@@ -7,13 +7,13 @@
 Summary:	Email::MIME::ContentType - parse a MIME Content-Type header
 Summary(pl.UTF-8):	Email::MIME::ContentType - analiza nagłówka MIME Content-Type
 Name:		perl-Email-MIME-ContentType
-Version:	1.022
+Version:	1.028
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Email/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	73d0c37e02e7cdb6c4f68a04d7415007
+# Source0-md5:	57c34e2e8a5820a7a8ab51572342ef46
 URL:		http://search.cpan.org/dist/Email-MIME-ContentType/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
